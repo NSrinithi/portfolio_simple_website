@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    padding: 50px;
+}
+
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-one h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.section-one p{ 
+    font-size: 25px;
+    font-weight: bolder;
+}
+.section-one a{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.section-two,.section-three,.section-four,.section-five{
+    margin-top: 20px;
+}
+
+.section-two p,.section-three ul,.section-four ul,.section-five p{
+    margin-top: 10px;
+}
+
+.section-three ul,.section-four ul{
+    list-style: none;
+}
+
+.section-three{
+    display: inline-block;
+    padding: 20px;
+    background-color: #6462fd;
+    border-radius: 10px;
+    height: 200px;
+    vertical-align: top;
+}
+
+.section-four{
+    display: inline-block;
+    padding: 20px;
+    background-color: #fe7517;
+    border-radius: 10px;
+    height: 200px;
+    vertical-align: top;
+}
+
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 20px;
+} 
+
+.form{
+    margin-top: 20px;
+}
+
+.form input,.form textarea{
+    margin-top: 10px;
+}
+
+.form input{
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+.form textarea{
+    border: none;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.form button{
+    padding: 10px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
